@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Starting Hackathon Build'
         cd distributed-tracing/go-app
-        #sh 'go build -o target/beachshirts  cmd/beachshirts/main.go'
+        //sh 'go build -o target/beachshirts  cmd/beachshirts/main.go'
         echo 'Pretend it worked!'
       }
     }
