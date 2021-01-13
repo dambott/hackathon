@@ -4,7 +4,8 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Starting Hackathon Build'
-        build 'BuildHack'
+        cd distributed-tracing/go-app
+        go build
       }
     }
 
